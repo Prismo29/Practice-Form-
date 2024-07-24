@@ -23,12 +23,14 @@ body {
     background-color: rgba(0, 0, 0, 0.5); 
     z-index: -1; 
   }
+
   .title {
     text-align: center;
     font-family: Playfair Display, serif;
     margin-top: 50px;
     position: relative;
   }
+  
   #survey-form {
     margin: auto;
     padding: 2em;
@@ -83,26 +85,25 @@ body {
   textarea {
     resize: vertical;
   }
-@media (max-width: 600px) {
-  .title {
-    margin-top: 20px;
-  }
-
-  #survey-form {
-    padding: 1em;
-    width: 100%;
-  }
-
-  fieldset {
-    padding: 1rem 0.5rem;
-  }
-
-  label {
-    margin-bottom: 0.5rem;
-  }
-
-  legend {
-    margin-bottom: 0.5rem;
-  }
-}
+  @media (max-width: 600px) {
+    .title {
+      margin-top: 20px;
+    }
   
+    #survey-form {
+      padding: 1em;
+      width: 100%;
+    }
+  
+    fieldset {
+      padding: 1rem 0.5rem;
+    }
+  
+    label {
+      margin-bottom: 0.5rem;
+    }
+  
+    legend {
+      margin-bottom: 0.5rem;
+    }
+  }
