@@ -93,6 +93,7 @@ body {
       flex: auto;
       justify-content: center;
       align-items: center;  
+      width: 100%;  
     }
   
     #survey-form {
