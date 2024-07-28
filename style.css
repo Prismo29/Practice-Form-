@@ -57,7 +57,13 @@ body {
   legend {
     margin-bottom: 0.5rem; 
   }
-  
+  #name, #email, #number {
+    padding: 7px;
+  }
+  #dropdown {
+    padding: 4px;
+    background-color: #E3A5C7;
+  }
   input, textarea, select {
     margin-top: 0.5rem;
     width: 100%; 
