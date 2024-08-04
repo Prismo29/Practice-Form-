@@ -119,7 +119,10 @@ body {
       justify-content: center;
       align-items: center;  
     }
-  
+    #submit {
+    padding: 5px;
+    font-weight: 100;
+    }
     fieldset {
       padding: 1rem 0.5rem;
     }
